@@ -1,0 +1,46 @@
+.clock-container {
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.current-time {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+}
+
+.label {
+  margin-right: 10px;
+}
+
+.input {
+  flex: 1;
+  padding: 8px;
+  font-size: 1rem;
+}
+
+.start-button,
+.stop-button {
+  padding: 8px 12px;
+  margin-left: 10px;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.start-button:disabled,
+.stop-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
